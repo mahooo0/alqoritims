@@ -12,3 +12,21 @@ while (Math.abs(sum) >= e) {
 }
 
 console.log('Final Sum:', sum);
+//tusk 3 -7
+let d3foultArrey= [[1,2,3],[4,5,6],[7,8,9]]
+function Sum_of_Numbers(arrey){
+    arrey.map((item,i)=>{
+        if(i%2===0&&i!==0){
+            let sum=0
+            item.map((item)=>{
+                sum+=item
+            })
+              console.log(sum)
+
+        }
+        
+        
+    })
+  
+}
+Sum_of_Numbers(d3foultArrey)
