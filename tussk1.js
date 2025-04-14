@@ -12,6 +12,20 @@ while (Math.abs(sum) >= e) {
 }
 
 console.log('Final Sum:', sum);
+
+-----------------------------------------
+//tusk 2 -7
+const RandomArrey = [2, 2, 2];
+const EDEDI_Orta = arr => {
+  let sum = 0;
+  arr.map(item => {
+    sum += item;
+  });
+  console.log('cvb:', sum / arr.length);
+};
+EDEDI_Orta(RandomArrey);
+
+--------------------------------------------
 //tusk 3 -7
 let d3foultArrey= [[1,2,3],[4,5,6],[7,8,9]]
 function Sum_of_Numbers(arrey){
